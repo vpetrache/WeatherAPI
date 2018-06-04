@@ -1,0 +1,18 @@
+{
+  "name": "metaweather",
+  "version": "1.0.0",
+  "description": "Framework to test Metaweather API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}

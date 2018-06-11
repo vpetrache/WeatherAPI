@@ -4,7 +4,7 @@
   "description": "Framework to test Metaweather API",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "./node_modules/jasmine-xml-reporter/bin/jasmine.js --junitreport --output=report/"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "jasmine": "^3.1.0",
     "jasmine-spec-reporter": "^4.2.1",
     "jasmine-ts-console-reporter": "^3.1.1",
+    "jasmine-xml-reporter": "^1.2.1",
     "request": "^2.87.0",
     "request-promise": "^4.2.2"
   }

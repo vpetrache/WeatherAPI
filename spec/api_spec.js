@@ -8,9 +8,6 @@ let options = {
 };
 
 describe("Checking the Weather API", function () {
-    beforeAll(function() {
-        jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
-      });
     it("should search for " + td.city[0].name, function (done) {
         options.uri = '/location/search/?query=' + td.city[0].name;
 
